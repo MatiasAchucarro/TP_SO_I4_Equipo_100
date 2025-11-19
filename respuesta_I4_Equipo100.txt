@@ -1,0 +1,41 @@
+ A. ¿Qué color de fondo tiene su página en el TESTING?
+
+Respuesta: blue
+
+B. ¿Qué color de fondo tiene su página en el DESARROLLO?
+
+Respuesta: yellow
+
+C. ¿Qué color de fondo tiene su página en el MASTER?
+
+Respuesta: RED
+
+D. ¿Qué favicon quedó en el MASTER, el de ALFA o el de BETA?
+
+Respuesta: el ALFA
+
+E. ¿Algún integrante tuvo problemas al hacer el push?
+
+Respuesta: No
+
+F. ¿Qué problemas surgieron?
+
+Respuesta: ninguno
+
+G. ¿Qué soluciones pueden aplicar y cuál sería la consecuencia de cada solución adoptada?
+
+Respuesta: ninguna
+
+H. ¿Qué sucede si cada uno utiliza el push-f?
+
+Respuesta: queda el último push, los demás se pierden
+
+I. ¿Qué debo hacer para que el index.html tenga todos los <p> de los puntos 18, 19 y 20 en DESARROLLO?
+
+Respuesta:
+git checkout DESARROLLO
+git checkout TESTING -- index.html
+git add index.html
+git commit -m "Agrego <p> de los puntos 18,19,20 a index.html"
+git push origin DESARROLLO
+
